@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SkyJet Airline Booking</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <header>
+    <div class="container">
+      <h1 class="logo">SkyJet</h1>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Flights</a></li>
+          <li><a href="#">Bookings</a></li>
+          <li><a href="#">Check-in</a></li>
+          <li><a href="#">Cancellation</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <h2>Book Your Journey with Confidence</h2>
+      <p>Seamless flight booking and travel services at your fingertips.</p>
+    </section>
+
+    <section class="booking-form">
+      <h2>Passenger Booking</h2>
+      <form id="bookingForm">
+        <input type="text" name="name" placeholder="Full Name" required />
+        <input type="number" name="age" placeholder="Age" required />
+        <input type="tel" name="phone" placeholder="Phone Number" required />
+        <input type="email" name="email" placeholder="Email Address" required />
+        <input type="text" name="passport" placeholder="Passport Number" required />
+        <input type="text" name="passenger_id" placeholder="Passenger ID" required />
+
+        <select name="class" required>
+          <option value="">-- Select Class --</option>
+          <option value="FirstClass">First Class</option>
+          <option value="EconomyClass">Economy Class</option>
+        </select>
+
+        <select name="flight" required>
+          <option value="SA101"></option>
+        </select>
+
+        <button class="cta-button" type="submit">Book Ticket</button>
+      </form>
+      <div id="confirmation"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 SkyJet Airlines. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>

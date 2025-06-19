@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  background-color: #f4f6f9;
+  color: #333;
+  line-height: 1.6;
+}
+
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px 0;
+}
+
+
+header {
+  background-color: #004080;
+  color: white;
+  padding: 20px 0;
+}
+
+.logo {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+nav {
+  margin-top: 10px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 20px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: #cce6ff;
+}
+
+
+.hero {
+  background-color: #e0efff;
+  padding: 60px 20px;
+  text-align: center;
+  border-radius: 10px;
+  margin: 40px 0;
+}
+
+.hero h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 1.1rem;
+  color: #333;
+}
+
+
+.cta-button {
+  background-color: #0073e6;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #005bb5;
+}
+
+
+.services {
+  padding: 40px 0;
+}
+
+.services h2 {
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 1.6rem;
+  color: #004080;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 20px;
+}
+
+.service-card {
+  background-color: white;
+  border-radius: 6px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  padding: 20px;
+  text-align: center;
+  font-weight: 600;
+  color: #004080;
+}
+
+
+.booking-form {
+  background-color: white;
+  padding: 40px 20px;
+  border-radius: 8px;
+  box-shadow: 0 3px 12px rgba(0,0,0,0.1);
+  margin-top: 40px;
+}
+
+.booking-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #004080;
+}
+
+form input,
+form select {
+  width: 100%;
+  padding: 12px;
+  margin: 12px 0;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+#confirmation {
+  text-align: center;
+  margin-top: 15px;
+  color: green;
+  font-weight: bold;
+}
+
+
+footer {
+  background-color: #00264d;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  margin-top: 60px;
+  font-size: 0.9rem;
+}
